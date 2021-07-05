@@ -1,0 +1,28 @@
+h1{
+     Our Bangladesh
+     font-weight: bold;
+     color: red;
+     background-color: yellow;
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration:line-through;
+     letter-spacing: 20px;
+     word-spacing: 5px;
+}
+p{
+     text-align: justify;
+     font-weight: bold;
+     text-transform: capitalize;
+     line-height: 2;
+     text-indent: 100px;
+}
+p:nth-child(3){
+     color: rebeccapurple;
+     text-shadow: 0 0 5px red;
+}
+.div_one{
+     width: 50%;
+     height: 120px;
+     background-color: green;
+     overflow-y: scroll;
+}

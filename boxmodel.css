@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: 0;
+  }
+#boxmodel{
+     width: 500px;
+     height: 200px;
+     background-color: olive;
+     padding: 10px 20px 30px 40px ;
+     border: 10px solid red;
+     margin: 40px;
+     box-sizing: content-box;
+     outline: 10px solid rgb(229, 255, 0);
+     outline-offset: 20px;
+     border-radius: 20px;
+}
+p{
+     margin: 0;
+}
+.circle{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background-color: yellow;
+}
